@@ -152,18 +152,18 @@
             >
             <[jointlinear][JointFuselageLeftGear][]
                 <[tmvector3d][R0][ 1.906510 1.055470 -0.514510 ]>
-                <[float64][Kfx][1832000.0]>
-                <[float64][Kfy][1832000.0]>
-                <[float64][Kfz][432000.0]>
-                <[float64][Dfx][272.8]>
-                <[float64][Dfy][272.8]>
-                <[float64][Dfz][538.24]>
-                <[float64][Ktx][48640.0]>
-                <[float64][Kty][48640.0]>
-                <[float64][Ktz][48640.0]>
-                <[float64][Dtx][172.8]>
-                <[float64][Dty][172.8]>
-                <[float64][Dtz][172.8]>
+                <[float64][Kfx][7000000.0]>
+                <[float64][Kfy][7000000.0]>
+                <[float64][Kfz][450000.0]>
+                <[float64][Dfx][300.0]>
+                <[float64][Dfy][300.0]>
+                <[float64][Dfz][600.0]>
+                <[float64][Ktx][800000.0]>
+                <[float64][Kty][800000.0]>
+                <[float64][Ktz][800000.0]>
+                <[float64][Dtx][200.0]>
+                <[float64][Dty][200.0]>
+                <[float64][Dtz][200.0]>
                 <[string8][Body0][LeftWing]>
                 <[string8][Body1][LeftGear]>
                 <[string8][Rotation0Control][ServoLeftGear.Output]>
@@ -180,18 +180,18 @@
             >
             <[jointlinear][JointFuselageRightGear][]
                 <[tmvector3d][R0][ 1.906510 -1.055470 -0.514510 ]>
-                <[float64][Kfx][1832000.0]>
-                <[float64][Kfy][1832000.0]>
-                <[float64][Kfz][432000.0]>
-                <[float64][Dfx][272.8]>
-                <[float64][Dfy][272.8]>
-                <[float64][Dfz][538.24]>
-                <[float64][Ktx][48640.0]>
-                <[float64][Kty][48640.0]>
-                <[float64][Ktz][48640.0]>
-                <[float64][Dtx][172.8]>
-                <[float64][Dty][172.8]>
-                <[float64][Dtz][172.8]>
+                <[float64][Kfx][7000000.0]>
+                <[float64][Kfy][7000000.0]>
+                <[float64][Kfz][450000.0]>
+                <[float64][Dfx][300.0]>
+                <[float64][Dfy][300.0]>
+                <[float64][Dfz][600.0]>
+                <[float64][Ktx][800000.0]>
+                <[float64][Kty][800000.0]>
+                <[float64][Ktz][800000.0]>
+                <[float64][Dtx][200.0]>
+                <[float64][Dty][200.0]>
+                <[float64][Dtz][200.0]>
                 <[string8][Body0][RightWing]>
                 <[string8][Body1][RightGear]>
                 <[string8][Rotation0Control][ServoRightGear.Output]>
@@ -214,11 +214,11 @@
                 <[float64][Dfx][57.8]>
                 <[float64][Dfy][57.8]>
                 <[float64][Dfz][57.8]>
-                <[float64][Ktx][286400.0]>
+                <[float64][Ktx][300000.0]>
                 <[float64][Kty][16400.0]>
-                <[float64][Ktz][286400.0]>
+                <[float64][Ktz][300000.0]>
                 <[float64][Dtx][27.8]>
-                <[float64][Dty][617.8]>
+                <[float64][Dty][317.8]>
                 <[float64][Dtz][27.8]>
                 <[string8][Body0][Fuselage]>
                 <[string8][Body1][TailGearUpper]>
@@ -243,8 +243,7 @@
                 <[string8][InputPosition][ServoSteering.Output]>
                 <[string8][InputLock][1]>
             >			
-			
-			
+						
             <[wheel][LeftWheelHull][]
                 <[float64][K][604800]>
                 <[float64][D][5184]>
