@@ -4,7 +4,7 @@ Curtiss P-40 Warhawk
 The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (From Wikipedia, the free encyclopedia)
 
 This is free add-on for Aerofly FS2 developed by Krzysztof Kaniewski, 2015-2019 ver. 0.8.
-3D model by Emmanuel Baranger (3D/FDM), Tomcatter (Instruments). Downloaded from http://helijah.free.fr/flightgear/hangar.htm
+3D model by Emmanuel Baranger (3D/FDM), Tomcatter (Instruments). Downloaded from https://github.com/FGMEMBERS/Curtiss-P40
 default livery was made by : Emmanuel BARANGER 2012.
 Thanks to him.
 
@@ -35,82 +35,3 @@ These liveries were made by : Thomas (Ghost) 2012. Thanks to him
 - P-40TUSKEHEE : P-40 99th FS “A Train II” Italy, 1944 (“Tuskegee Airmen”)
 - P-40Captured : P-40 Captured 
 These liveries were made by : Herve 2012. Thanks to him
-
-==================================================================
-
-English/Français
-
-[English]
-----------
-
-A little history
-================
-
-Curtiss P 40
-============
-
-Manufacturer                  :
-Type                          :
-Year                          :
-Powerplant                    :
-Wingspan                      :
-Length                        :
-Height                        :
-weight                        :
-Max speed                     :
-Range                         :
-Crew                          :
-
-Some useful keys:
-=================
-
-d : open/close canopy
-
-Thanks
-======
-
-===============
-BARANGER Emmanuel
-August, 08, 2012
-
-http://helijah.free.fr/flightgear/hangar.htm
-embaranger@free.fr
-
-
-[Français]
-----------
-
-Un peu d'histoire
-=================
-
-Curtiss P 40
-============
-
-Constructeur                  :
-Type                          :
-Année                         :
-Moteur                        :
-Envergure                     :
-Longueur                      :
-Hauteur                       :
-Poids estimé au décollage     :
-Vitesse max                   :
-Autonomie estimée             :
-Equipage                      :
-
-
-Quelques touches utiles :
-=========================
-
-d : Ouverture/fermeture de la verričre
-
-Remerciements
-=============
-
-===============
-BARANGER Emmanuel
-08 Aoűt 2012
-
-http://helijah.free.fr/flightgear/hangar.htm
-embaranger@free.fr
-

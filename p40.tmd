@@ -1239,7 +1239,7 @@
         <[pointer_list_tmgraphics][GraphicObjects][]
 		
             <[rigidbodygraphics][Fuselage][]
-                <[string8][GeometryList][ ailes2 cables dessous echappes fuselage guns rear supportguns trous interieur inttour ]>
+                <[string8][GeometryList][ ailes2 cables dessous echappes fuselage guns rear supportguns trous interieur inttour bellytank ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
             >
