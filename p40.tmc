@@ -1,10 +1,10 @@
 <[file][][]
     <[object][][]
         <[int][Version][210]>
-        <[vec32array][ContactSpheres][ (1.915 1.262 -1.474 0.393) (1.915 -1.262 -1.474 0.393) (-3.417 0.0 -0.433 0.163) ]>
+        <[vec32array][ContactSpheres][ (0.715 1.262 -1.694 0.393) (0.715 -1.262 -1.694 0.393) (-4.617 0 -0.653 0.163) ]>
         <[string8][DisplayName][Curtiss P-40 Warhawk]>
         <[string8][DescriptionTextEN][The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (from Wikipedia)
-		Converted from FlightGear by Krzysztof Kaniewski, Original 3D model by Emmanuel Baranger (3D/FDM), Tomcatter (Instruments).]>
+		Converted from FlightGear by Krzysztof Kaniewski, Original 3D model by Emmanuel Baranger (3D/FDM), 112sq HD texture by Matthew Ivey.]>
         <[float64][WingSpan][11.3]>
         <[float64][Mass][2880.3]>
         <[float64][MinimumSpeed][45.5]>

@@ -13,18 +13,18 @@ Thanks to him.
 
 Installation
 
-1. Unzip file and move the folder "curtiss-p40" to C:\Users\~\Documents\Aerofly FS2\aircraft.
+1. Unzip file and move the folder "p40" to C:\Users\~\Documents\Aerofly FS2\aircraft.
 
 Tips:
 
-There are other liveries in 'liveries' folder:
+There are other  texturies in folders:
 
 - flying-tiger
-These liveries were made by : Thomas (Ghost) and Tomcatter 2012. Thanks to him
+This texture was made by : Thomas (Ghost) and Tomcatter 2012. Thanks to him
 
 - TAYLOR
 - WELCH
-These liveries were made by : Thomas (Ghost) 2012. Thanks to him
+These  texturies were made by : Thomas (Ghost) 2012. Thanks to him
 
 - P-40TORCHb   : P-40 Operation Torch, North Africa, 1943
 - P-40Umnak    : P-40 11th FS, 343rd FG Umnak AK, 1942
@@ -34,6 +34,10 @@ These liveries were made by : Thomas (Ghost) 2012. Thanks to him
 - P-40RAAF     : P-40 RAAF 75sq. 1943 Battle of Milne Bay
 - P-40TUSKEHEE : P-40 99th FS “A Train II” Italy, 1944 (“Tuskegee Airmen”)
 - P-40Captured : P-40 Captured 
-These liveries were made by : Herve 2012. Thanks to him
+These texturies were made by : Herve 2012. Thanks to him
+
+- 112sq_desert : HD repaint of P40 112 "Shark" Sqdn. Desert Air Force Gambut, Libya 1942
+This HD texture was made by Matthew Ivey, 2019. Thanks to him
+
 
 Repaint kit and other resources are available here: https://github.com/FGMEMBERS/Curtiss-P40
