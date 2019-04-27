@@ -2,7 +2,7 @@
     <[modelmanager][][]
         <[pointer_list_tmcontrol][ControlObjects][]
 
-			// Altimetter pressure
+			// altimetter pressure
             <[control_cylinder][PressureSetting][9]
                 <[string8][Type][knob]>
                 <[vector3_float64][R0][ -0.04 0.1731 0.22 ]>
@@ -18,7 +18,7 @@
                 <[float64][Length][0.01]>
             >
 			
-            // Magnetos	
+            // magnetos	
             <[control_cylinder][MagnetosBase][65]
                 <[string8][Type][knob]>
                 <[vector3_float64][R0][ -0.09215 0.18 0.06468 ]>
@@ -49,12 +49,12 @@
                 <[vector3_float64][R0][ -0.4946 0.3151 0.2076 ]>
                 <[matrix3_float64][B0][ 1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0 ]>
                 <[vector3_float64][Direction][ 1.0 0.0 0.0 ]>
-                <[float64][StepDistance][0.001]>
+                <[float64][StepDistance][0.004]>
                 <[string8][InputTransform][ThrottleLeverTransform.Output]>
                 <[control_message][OnStep][]
                     <[string8][Message][Controls.Throttle1]>
                     <[string8][Qualifiers][step]>
-                    <[float64][Value][0.005]>
+                    <[float64][Value][0.01]>
                 >
                 <[float64][Radius][0.018]>
             >
@@ -63,11 +63,11 @@
                 <[vector3_float64][R0][ -0.4946 0.3151 0.2076 ]>
                 <[matrix3_float64][B0][ 1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0 ]>
                 <[vector3_float64][Direction][ 1.0 0.0 0.0 ]>
-                <[float64][StepDistance][0.001]>
+                <[float64][StepDistance][0.004]>
                 <[control_message][OnStep][]
                     <[string8][Message][Controls.Throttle1]>
                     <[string8][Qualifiers][step]>
-                    <[float64][Value][0.008]>
+                    <[float64][Value][0.01]>
                 >
                 <[vector3_float64][Dimensions][ 0.1 0.015 0.03 ]>
             >
@@ -86,12 +86,12 @@
                 <[vector3_float64][R0][ -0.4638 0.3197 0.1583 ]>
                 <[matrix3_float64][B0][ 1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0 ]>
                 <[vector3_float64][Direction][ 1.0 0.0 0.0 ]>
-                <[float64][StepDistance][0.001]>
+                <[float64][StepDistance][0.0005]>
                 <[string8][InputTransform][MixtureLeverTransform.Output]>
                 <[control_message][OnStep][]
                     <[string8][Message][Controls.Mixture1]>
                     <[string8][Qualifiers][step]>
-                    <[float64][Value][0.2]>
+                    <[float64][Value][0.1]>
                 >
                 <[float64][Radius][0.012]>
             >
@@ -100,11 +100,11 @@
                 <[vector3_float64][R0][ -0.4638 0.3197 0.1583 ]>
                 <[matrix3_float64][B0][ 1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0 ]>
                 <[vector3_float64][Direction][ 1.0 0.0 0.0 ]>
-                <[float64][StepDistance][0.001]>
+                <[float64][StepDistance][0.0005]>
                 <[control_message][OnStep][]
                     <[string8][Message][Controls.Mixture1]>
                     <[string8][Qualifiers][step]>
-                    <[float64][Value][0.4]>
+                    <[float64][Value][0.1]>
                 >
                 <[vector3_float64][Dimensions][ 0.1 0.015 0.003 ]>
             >

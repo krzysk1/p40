@@ -1788,11 +1788,12 @@
                 <[tmvector3d][Axis][0.0 0.493938 -0.869497]>
                 <[tmvector3d][Pivot][1.31452 -0.33907 -0.74002]>  
             >
-            <[rigidbodygraphics][PilotWW2Body][]
-                <[uint32][ShowInside][9]>
-                <[string8][GeometryList][ avantbrasd avantbrasg brasd brasg coprs cuissed cuisseg jambed jambeg manche piedd piedg ]>
+            <[rigidbodygraphics][PilotBody][]
+				<[string8][GeometryList][ pilotbody ]>
+//                <[string8][GeometryList][ avantbrasd avantbrasg brasd brasg coprs cuissed cuisseg jambed jambeg manche piedd piedg ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
+                <[uint32][ShowInside][9]>				
             >
             <[graphics_input][pilot_tete_2Mapping][]
                 <[uint32][InputID][ServoElevatorPosition.Output]>
@@ -1824,7 +1825,7 @@
                 <[string8][InputTransform][pilot_tete_3Transform.Output]>
             >
             <[rigidbodygraphics][PilotHead][]
-                <[string8][GeometryList][ tete ]>
+                <[string8][GeometryList][ pilothead pilotglasses ]> //tete
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[string8][InputTransform][pilot_tete_4Transform.Output]>
