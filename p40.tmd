@@ -568,7 +568,7 @@
                 <[string8][Input][GearInput.Output]>
                 <[string8][Message][Controls.Gear]>
             >
-             <[sender][SenderGearPosition][]
+            <[sender][SenderGearPosition][]
                 <[string8][Input][GearSequence.Output]>
                 <[string8][Message][Aircraft.Gear]>
             >
@@ -581,7 +581,7 @@
             <[input_default][RightBrakeInput][]
                 <[string8][Input][Controls.WheelBrake.Right]>
             >
-            <[input_default][AileronInput][]
+            <[input_control][AileronInput][]
                 <[tmvector2d][Range][ -1.0 1.0 ]>
                 <[string8][Input][Controls.Roll.Input]>
             >
@@ -589,7 +589,7 @@
                 <[string8][Input][AileronInput.Output]>
                 <[string8][Message][Aircraft.Aileron]>
             >
-            <[input_default][ElevatorInput][]
+            <[input_control][ElevatorInput][]
                 <[tmvector2d][Range][ -1.0 1.0 ]>
                 <[string8][Input][Controls.Pitch.Input]>
             >
@@ -610,9 +610,38 @@
                 <[uint][Positions][4]>
                 <[float64][Value][0.0]>
             >
+            <[gated_lever][FlapLever][]
+                <[string8][Input][FlapsInput.Output]>
+                <[float64][Gates][ 0.0 0.333 0.667 1.0 ]>
+                <[float64][CommandMoveAcceleration][20.0]>
+                <[float64][CommandMoveStrength]    [8.0]>
+            >
+            <[output_free][FlapLeverOutput][]
+                <[string8][Input][FlapLever.Output]>
+            >			
+            <[event_sound][FlapLeverPullSound][]
+            >
+            <[event_sound][FlapLeverReleaseSound][]
+            >
+            <[event_edge][FlapLever_UnlockedSound][]
+                <[string8][Input][FlapLever.OutputUnlocked]>
+                <[string8][Events][ FlapLeverPullSound.Trigger ]>
+                <[bool][Rising][true]>
+                <[bool][Falling][false]>
+                <[float64][Value][0.0]>
+                <[float64][Threshold][0.97]>
+            >
+            <[event_edge][FlapLever_ReleaseSound][]
+                <[string8][Input][FlapLever.OutputUnlocked]>
+                <[string8][Events][ FlapLeverReleaseSound.Trigger ]>
+                <[bool][Rising][false]>
+                <[bool][Falling][true]>
+                <[float64][Value][0.0]>
+                <[float64][Threshold][0.1]>
+            >			
             <[linear_interpolation][FlapsMapping][]
                 <[string8][Input][FlapsInput.Output]>
-                <[tmvector2d][Map][ (0.0 0.0) (1.0 0.785398) ]>
+                <[tmvector2d][Map][ (0.0 0.0) (1.0 0.698132) ]>
             >
             <[sender][SenderFlapPosition][]
                 <[string8][Input][FlapsMapping.Output]>
@@ -624,7 +653,7 @@
                 <[string8][Message][Aircraft.Flaps]>
             >
             <[sender][SenderFlapMaximum][]
-                <[string8][Input][0.785398]>
+                <[string8][Input][0.698132]>
                 <[string8][Message][Aircraft.Flaps]>
                 <[string8][Qualifiers][maximum]>
             >
@@ -695,8 +724,6 @@
                 <[float64][Speed][1.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoBrakeOutput][]
                 <[string8][Input][ServoBrake.Output]>
@@ -706,8 +733,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][0.261799]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoLeftAileronOutput][]
                 <[string8][Input][ServoLeftAileron.Output]>
@@ -717,8 +742,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][-0.261799]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoRightAileronOutput][]
                 <[string8][Input][ServoRightAileron.Output]>
@@ -728,8 +751,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][0.261799]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoElevatorOutput][]
                 <[string8][Input][ServoElevator.Output]>
@@ -739,8 +760,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][-0.349066]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoRudderOutput][]
                 <[string8][Input][ServoRudder.Output]>
@@ -750,8 +769,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoAileronPositionOutput][]
                 <[string8][Input][ServoAileronPosition.Output]>
@@ -761,8 +778,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoElevatorPositionOutput][]
                 <[string8][Input][ServoElevatorPosition.Output]>
@@ -772,8 +787,6 @@
                 <[float64][Speed][5.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][-1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoRudderPositionOutput][]
                 <[string8][Input][ServoRudderPosition.Output]>
@@ -783,8 +796,6 @@
                 <[float64][Speed][0.142857]>
                 <[float64][P0][0.0]>
                 <[float64][P1][0.698132]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoFlapsOutput][]
                 <[string8][Input][ServoFlaps.Output]>
@@ -794,8 +805,6 @@
                 <[float64][Speed][0.142857]>
                 <[float64][P0][0.0]>
                 <[float64][P1][1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
             >
             <[output_free][ServoFlapPositionOutput][]
                 <[string8][Input][ServoFlapPosition.Output]>
@@ -810,6 +819,33 @@
             <[output_free][GearSequenceOutput][]
                 <[string8][Input][GearSequence.Output]>
             >
+            <[event_sound][GearSoundUp][]
+            >
+            <[event_sound][GearSoundDown][]
+            >
+            <[event_edge][GearSequence_Sound][]
+                <[string8][Input][GearSequence.Output]>
+                <[string8][Events][ GearSoundUp.Trigger ]>
+                <[bool][Rising][true]>
+                <[bool][Falling][false]>
+                <[float64][Threshold][0.15]>
+                <[float64][Value][1.0]>
+            >
+            <[event_edge][GearSequence_Sound1][]
+                <[string8][Input][GearSequence.Output]>
+                <[string8][Events][ GearSoundDown.Trigger ]>
+                <[bool][Rising][false]>
+                <[bool][Falling][true]>
+                <[float64][Threshold][0.85]>
+                <[float64][Value][1.0]>
+            >				
+            <[servolinear][ServoGear][]
+                <[string8][Input][GearSequence.Output]>
+                <[float64][OutputSpeed][0.2]>
+                <[float64][Position][0.0]>
+                <[float64array][InputPosition][ 0.0 0.25 0.85 1.0 ]>
+                <[float64array][OutputPosition][ 0.0 0.0 1.0 1.0 ]>
+            >			
             <[servolinear][ServoLeftGear][]
                 <[string8][Input][GearSequence.Output]>
                 <[float64][OutputSpeed][0.142]>
@@ -2335,7 +2371,31 @@
                 <[string8][SoundFile][flaps.wav]>
                 <[bool][External][false]>
             >
-
+			// gear lever
+            <[soundinput][GearSoundUp][]
+                <[uint32][InputID][GearSoundUp.Output]>
+            >
+            <[sound_multi][SoundGearUp][]
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][VelocityID][Fuselage.V]>
+                <[string8][InputTrigger][GearSoundUp.Output]>
+                <[string8][InputVolume][1.0]>
+                <[string8][InputPitch][1.0]>
+                <[string8][SoundFile][gear.wav]>
+                <[bool][External][false]>
+            >
+            <[soundinput][GearSoundDown][]
+                <[uint32][InputID][GearSoundDown.Output]>
+            >
+            <[sound_multi][SoundGearDown][]
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][VelocityID][Fuselage.V]>
+                <[string8][InputTrigger][GearSoundDown.Output]>
+                <[string8][InputVolume][1.0]>
+                <[string8][InputPitch][1.0]>
+                <[string8][SoundFile][gear.wav]>
+                <[bool][External][false]>
+            >
             // button and switches
             <[soundinput][SwitchSound][]
                 <[uint32][InputID][SwitchSound.Output]>
