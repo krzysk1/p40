@@ -17,17 +17,62 @@
 
             // Cameras
 
-            <[camera][CameraFollow][]
+            <[camera][Follow][]
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][-10.427 0 1.78]>
-                <[tmvector3d][Direction][0.9962 0.0 -0.0872]>
+                <[tmvector3d][R0][ -14.0 0.0 2.5 ]>
+                <[tmvector3d][Direction][ 1.0 0.0 0.0 ]>
             >
             <[camera_head][CameraPilot][]
-                <[string8][Tags][cockpit pilot]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][-0.801 0 0.619]>
                 <[tmvector3d][Direction][0.9962 0.0 -0.0872]>
+                <[float64][Kf][30.0]>
+                <[float64][Df][3.0]>
+                <[float64][Kt][0.04]>
+                <[float64][Dt][0.04]>
                 <[bool][InCockpit][true]>
+                <[string8][Tags][ cockpit pilot ]>
+            >
+            <[camera][CameraPilotSideView][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ -0.28 -0.1 0.65 ]>
+                <[tmvector3d][Direction][ -1.0 0.0 -0.12 ]>
+                <[bool][InCockpit][true]>
+                <[string8][Tags][ cockpit pilot selfie ]>
+            >
+            <[camera][CameraGearView][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ -1.5 0.0 -0.7 ]>
+                <[tmvector3d][Direction][ 0.8 0.0 -0.2 ]>
+                <[bool][InCockpit][false]>
+                <[bool][Near][true]>
+                <[string8][Tags][ gear ]>
+            >
+            <[camera][CameraStabilizer][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ -5.052987 0.0 1.7 ]>
+                <[tmvector3d][Direction][ 0.95 0.0 -0.2 ]>
+                <[float64][Cone][-0.1]>
+                <[bool][InCockpit][false]>
+                <[string8][Tags][ tail stabilizer ]>
+            >
+            <[camera][CameraLeftFuselageView][]
+                <[string8][Body][LeftWing]>
+                <[tmvector3d][R0][ 0.4 5.3 0.6 ]>
+                <[tmvector3d][X0][ 0.0 -1.0 0.0 ]>
+                <[tmvector3d][Direction][ 0.1 -1.0 -0.1 ]>
+                <[float64][Cone][0.0]>
+                <[bool][InCockpit][false]>
+                <[string8][Tags][fuselage wing left]>
+            >
+            <[camera][CameraRightFuselageView][]
+                <[string8][Body][RightWing]>
+                <[tmvector3d][R0][ 0.4 -5.3 0.6 ]>
+                <[tmvector3d][X0][ 0.0 1.0 0.0 ]>
+                <[tmvector3d][Direction][ 0.1 1.0 -0.1 ]>
+                <[float64][Cone][0.0]>
+                <[bool][InCockpit][false]>
+                <[string8][Tags][fuselage wing right]>
             >
 
             // Rigidbodies
@@ -75,8 +120,7 @@
                 <[string8][Geometry][Fuselage]>
                 <[float64][StaticFrictionCoefficient][1.0]>
                 <[float64][KineticFrictionCoefficient][0.65]>
-                <[bool][Blade][false]>
-                <[bool][CrashOnContact][false]>
+                <[bool][InstantCrash][true]>
             >
             <[collisionhull][CollisionLeftWing][]
                 <[float64][K][8640000]>
@@ -85,8 +129,6 @@
                 <[string8][Geometry][AilesG]>
                 <[float64][StaticFrictionCoefficient][1.0]>
                 <[float64][KineticFrictionCoefficient][0.65]>
-                <[bool][Blade][false]>
-                <[bool][CrashOnContact][false]>
             >
             <[collisionhull][CollisionRightWing][]
                 <[float64][K][8640000]>
@@ -95,8 +137,6 @@
                 <[string8][Geometry][AilesD]>
                 <[float64][StaticFrictionCoefficient][1.0]>
                 <[float64][KineticFrictionCoefficient][0.65]>
-                <[bool][Blade][false]>
-                <[bool][CrashOnContact][false]>
             >
             <[rigidbody][EngineBody][]
                 <[float64][Mass][601.1]>
@@ -241,9 +281,9 @@
                 <[float64][Dfx][57.8]>
                 <[float64][Dfy][57.8]>
                 <[float64][Dfz][157.8]>
-                <[float64][Ktx][200000.0]>
+                <[float64][Ktx][100000.0]>
                 <[float64][Kty][12000.0]>
-                <[float64][Ktz][200000.0]>
+                <[float64][Ktz][100000.0]>
                 <[float64][Dtx][27.0]>
                 <[float64][Dty][500.0]>
                 <[float64][Dtz][27.0]>

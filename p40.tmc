@@ -2,7 +2,7 @@
         <[int][Version][220]>        <[vec32array][ContactSpheres][ (0.715 1.262 -1.694 0.393) (0.715 -1.262 -1.694 0.393) (-4.617 0 -0.653 0.163) ]>
         <[string8][ICAO][P40]>        <[string8][DisplayName][Curtiss P-40 Warhawk]>
         <[string8][DisplayNameFull][Curtiss P-40 Warhawk]>
-        <[localized_text_list][Descriptions][]            <[localized_text][][]                <[string8][Language][en]>                <[string8][Text][The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (from Wikipedia). Converted from FlightGear by Krzysztof Kaniewski, Original 3D model by Emmanuel Baranger (3D/FDM), 112sq HD texture by Matthew Ivey.]>			>
+        <[localized_text_list][Descriptions][]            <[localized_text][][]                <[string8][Language][en]>                <[string8][Text][The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (from Wikipedia). Converted from FlightGear by Krzysztof Kaniewski, Original 3D model by Emmanuel Baranger (3D/FDM), 112sq HD texture by Matthew Ivey.]>			>            <[localized_text][][]                <[string8][Language][de]>                <[string8][Text][Die Curtiss P-40 Warhawk war ein amerikanisches einmotoriges, einsitziges, ganzmetallenes Jagd- und Erdkampfflugzeug, das erstmals 1938 flog. Das P-40-Design war eine Modifikation des vorherigen Curtiss P-36 Hawk, was die Entwicklungszeit verkürzte und einen schnellen Einstieg in die Produktion und den operativen Dienst ermöglichte. Die Warhawk wurde von den meisten alliierten Mächten im Zweiten Weltkrieg eingesetzt und blieb bis zum Ende des Krieges im Frontdienst. (aus Wikipedia). Konvertiert von FlightGear durch Krzysztof Kaniewski, Ursprüngliches 3D-Modell von Emmanuel Baranger (3D/FDM), HD-Textur von Matthew Ivey.]>			>			
         >        <[float64][WingSpan][11.4]>
         <[float64][MinimumAirspeed][45.5]>
         <[float64][ApproachAirspeed][47.5]>
@@ -20,6 +20,6 @@
         <[uint][EngineCount][1]>        <[uint][Year][1938]>
         <[tmvector2d][FlapSettings][ (0.0 0.0) (0.333 0.2327) (0.666 0.46542) (1.0 0.698132) ]>
         <[string8][FlapQualifier][]>		
-        <[string8][Tags][ historical piston airplane flaps retractable_gear ]>        <[string8][Pilot][]>
+        <[string8][Tags][ airplane historical piston flaps retractable_gear tailgear ]>        <[string8][Pilot][]>
     >
 >
