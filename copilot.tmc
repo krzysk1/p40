@@ -1,11 +1,10 @@
 <[file][][]
     <[hints][][]
         // Curtiss-P40
-        <[float64][MaximumTakeOffMass][2880.3]>
-        <[float64][WingSpan][11.33]>
-        <[float64][WingArea][18.5]>
+        <[float64][MaximumTakeOffMass][3756.0]>
+        <[float64][WingSpan][11.38]>
+        <[float64][WingArea][21.92]>
         <[float64][HeightOffset][-0.8249]>
-        <[float64][NoseWheelPositionX][2.285]>
         <[float64][ApproachSpeed][46.3]>
         <[float64][PatternSpeed][61.7]>
         <[float64][InitialClimbSpeed][51.4]>
@@ -37,13 +36,12 @@
               <[bool][AirBrake][true]>
            >
         >
-        <[string8][AutoPilotType][BASIC]>
+        <[int][EngineCount][1]>
+        <[bool][Piston][true]>
         <[bool][Aerobatic][true]>
         <[bool][Fighter][true]>
-        <[bool][FlyByWire][true]>
         <[bool][TailDragger][true]>
         <[bool][ParkingBrake][true]>
-        <[string8][AutoThrottleType][MOVING]>
         <[float64][ThrottleTrimFactor][0.5]>
         <[float64][ElevatorGain][0.4]>
         <[float64][AileronGain][0.4]>
