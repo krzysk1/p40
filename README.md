@@ -1,6 +1,8 @@
 # p40
 Curtiss P-40 Warhawk
 
+**THE MODEL HAS NO FUNCTIONAL COCKPIT AND NO DEVELOPMENT IS PLANNED**
+
 The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (From Wikipedia, the free encyclopedia)
 
 This is free add-on developed by Krzysztof Kaniewski for Aerofly FS2 , 2015-2019; then for Aerofly FS4; Nov 2023
