@@ -1,1 +1,45 @@
-<[file][][]    <[modelinformation][][]        <[int32][Version][220]>        <[list_vector4_float64][ContactSpheres][ (0.715 1.262 -1.694 0.393) (0.715 -1.262 -1.694 0.393) (-4.617 0 -0.653 0.163) ]>        <[stringt8c][ICAO][P40]>        <[string8][DisplayName][Curtiss P-40 Warhawk]>        <[string8][DisplayNameFull][Curtiss P-40 Warhawk]>        <[list_localized_text][Descriptions][]            <[localized_text][element][0]                <[string8][Language][en]>                <[string8][Text][The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (from Wikipedia). Converted from FlightGear by Krzysztof Kaniewski, Original 3D model by Emmanuel Baranger (3D/FDM), 112sq HD texture by Matthew Ivey.]>            >            <[localized_text][element][1]                <[string8][Language][de]>                <[string8][Text][Die Curtiss P-40 Warhawk war ein amerikanisches einmotoriges, einsitziges, ganzmetallenes Jagd- und Erdkampfflugzeug, das erstmals 1938 flog. Das P-40-Design war eine Modifikation des vorherigen Curtiss P-36 Hawk, was die Entwicklungszeit verkürzte und einen schnellen Einstieg in die Produktion und den operativen Dienst ermöglichte. Die Warhawk wurde von den meisten alliierten Mächten im Zweiten Weltkrieg eingesetzt und blieb bis zum Ende des Krieges im Frontdienst. (aus Wikipedia). Konvertiert von FlightGear durch Krzysztof Kaniewski, Ursprüngliches 3D-Modell von Emmanuel Baranger (3D/FDM), HD-Textur von Matthew Ivey.]>            >            <[localized_text][element][2]                <[string8][Language][pl]>                <[string8][Text][Curtiss P-40 Warhawk był amerykańskim jednosilnikowym, jednomiejscowym, całkowicie metalowym samolotem myśliwskim i szturmowym, który po raz pierwszy został oblatany w 1938 roku. Projekt P-40 był modyfikacją wcześniejszego Curtiss P-36 Hawk, co skróciło czas projektowania i umożliwiło szybkie wejście do produkcji i służby operacyjnej. Warhawk był używany przez większość mocarstw alianckich podczas II wojny światowej i pozostał w służbie frontowej do końca wojny. (z Wikipedii). Konwersja z FlightGear przez Krzysztofa Kaniewskiego, oryginalny model 3D autorstwa Emmanuela Barangera (3D/FDM), tekstura 112sq HD autorstwa Matthew Ivey'a.]>			>        >        <[float64][WingSpan][11.4]>        <[float64][MinimumAirspeed][45.5]>        <[float64][ApproachAirspeed][47.5]>        <[float64][CruiseAirspeed]  [117.5]>        <[float64][CruiseSpeed]  [147.5]>        <[float64][MaximumAirspeed] [155.0]>        <[float64][MaximumSpeed] [155.0]>        <[tmvector2d][FlapAirspeedRange][ 45.5 59.4 ]>        <[tmvector2d][NormalAirspeedRange][ 45.5 117.5 ]>        <[tmvector2d][CautionAirspeedRange][ 117.5 155.0 ]>        <[float64][MaximumAltitude][8840]>        <[float64][CruiseAltitude] [5000]>        <[float64][MaximumTakeoffMass][3756.0]>        <[float64][EnginePower][858000.0]>        <[float64][MaximumRange][1368000.0]>        <[uint][UnitsBuilt][13738]>        <[uint][EngineCount][1]>        <[uint][Year][1938]>        <[tmvector2d][FlapSettings][ (0.0 0.0) (0.333 0.2327) (0.666 0.46542) (1.0 0.698132) ]>        <[string8][FlapQualifier][]>        <[string8][Tags][ airplane historical piston flaps retractable_gear tailgear ]>        <[string8][Pilot][pilot_peter]>    >>
+<[file][][]
+    <[modelinformation][][]
+        <[int32][Version][220]>
+        <[list_vector4_float64][ContactSpheres][ (0.715 1.262 -1.694 0.393) (0.715 -1.262 -1.694 0.393) (-4.617 0 -0.653 0.163) ]>
+        <[stringt8c][ICAO][P40]>
+        <[string8][DisplayName][Curtiss P-40 Warhawk]>
+        <[string8][DisplayNameFull][Curtiss P-40 Warhawk]>
+        <[list_localized_text][Descriptions][]
+            <[localized_text][element][0]
+                <[string8u][Language][en]>
+                <[string8][Text][The Curtiss P-40 Warhawk was an American single-engined, single-seat, all-metal fighter and ground-attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by most Allied powers during World War II, and remained in frontline service until the end of the war. (from Wikipedia). Converted from FlightGear by Krzysztof Kaniewski, Original 3D model by Emmanuel Baranger (3D/FDM), 112sq HD texture by Matthew Ivey.]>
+            >
+            <[localized_text][element][1]
+                <[string8u][Language][de]>
+                <[string8][Text][Die Curtiss P-40 Warhawk war ein amerikanisches einmotoriges, einsitziges, ganzmetallenes Jagd- und Erdkampfflugzeug, das erstmals 1938 flog. Das P-40-Design war eine Modifikation des vorherigen Curtiss P-36 Hawk, was die Entwicklungszeit verkürzte und einen schnellen Einstieg in die Produktion und den operativen Dienst ermöglichte. Die Warhawk wurde von den meisten alliierten Mächten im Zweiten Weltkrieg eingesetzt und blieb bis zum Ende des Krieges im Frontdienst. (aus Wikipedia). Konvertiert von FlightGear durch Krzysztof Kaniewski, Ursprüngliches 3D-Modell von Emmanuel Baranger (3D/FDM), HD-Textur von Matthew Ivey.]>
+            >
+            <[localized_text][element][2]
+                <[string8u][Language][pl]>
+                <[string8][Text][Curtiss P-40 Warhawk był amerykańskim jednosilnikowym, jednomiejscowym, całkowicie metalowym samolotem myśliwskim i szturmowym, który po raz pierwszy został oblatany w 1938 roku. Projekt P-40 był modyfikacją wcześniejszego Curtiss P-36 Hawk, co skróciło czas projektowania i umożliwiło szybkie wejście do produkcji i służby operacyjnej. Warhawk był używany przez większość mocarstw alianckich podczas II wojny światowej i pozostał w służbie frontowej do końca wojny. (z Wikipedii). Konwersja z FlightGear przez Krzysztofa Kaniewskiego, oryginalny model 3D autorstwa Emmanuela Barangera (3D/FDM), tekstura 112sq HD autorstwa Matthew Ivey'a.]>
+			>
+        >
+        <[float64][WingSpan]        [11.4]>
+        <[float64][MinimumAirspeed] [45.5]>
+        <[float64][ApproachAirspeed][47.5]>
+        <[float64][CruiseAirspeed]  [117.5]>
+        <[float64][CruiseSpeed]     [147.5]>
+        <[float64][MaximumAirspeed] [155.0]>
+        <[float64][MaximumSpeed]    [155.0]>
+        <[vector2_float64][FlapAirspeedRange][ 45.5 59.4 ]>
+        <[vector2_float64][NormalAirspeedRange][ 45.5 117.5 ]>
+        <[vector2_float64][CautionAirspeedRange][ 117.5 155.0 ]>
+        <[float64][MaximumAltitude][8840]>
+        <[float64][CruiseAltitude] [5000]>
+        <[float64][MaximumTakeoffMass][3756.0]>
+        <[float64][EnginePower][858000.0]>
+        <[float64][MaximumRange][1368000.0]>
+        <[uint32][UnitsBuilt][13738]>
+        <[uint32][EngineCount][1]>
+        <[uint32][Year][1938]>
+        <[list_vector2_float64][FlapSettings][ (0.0 0.0) (0.333 0.2327) (0.666 0.46542) (1.0 0.698132) ]>
+        <[string8][FlapQualifier][]>
+        <[string8][Tags][ airplane historical piston flaps retractable_gear tailgear ]>
+        <[string8][Pilot][pilot_peter]>
+    >
+>
